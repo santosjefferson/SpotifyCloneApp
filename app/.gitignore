@@ -1,0 +1,81 @@
+/build
+ # Built application files
+    *.apk
+    *.ap_
+    *.aab
+    *.aar
+
+    # Files for the ART/Dalvik VM
+    *.dex
+
+    # Java class files
+    *.class
+
+    # Generated files
+    bin/
+    build/
+    .gradle/
+    .idea/
+    .cxx/
+    local.properties
+    .DS_Store
+    captures/
+    .externalNativeBuild/
+    .navigation/
+    .kotlin/
+    .kt/
+    # Mac files
+    .DS_Store
+
+    # Android Studio artifacts
+    .idea/workspace.xml
+    .idea/libraries/
+    .idea/caches/
+    .idea/compiler.xml
+    .idea/assetWizardSettings.xml
+    .idea/render.xml
+    .idea/tasks.xml
+    .idea/gradle.xml
+    .idea/modules.xml
+    .idea/codeStyles/
+    .idea/codeStyles/Project.xml
+    .idea/dictionaries/
+    .idea/copyright/
+    .idea/vcs.xml
+    .idea/deploymentTargetDropDown.xml
+    .idea/shelf/
+
+    # Local configuration file (for your API keys etc.)
+    local.properties
+
+    # AVD folder
+    .android/avd/
+
+    # Gradle
+    .gradle/
+    build/
+    *.iml
+
+    # Keystore files
+    *.jks
+    *.keystore
+
+    # NDK
+    .externalNativeBuild
+
+    # Kotlin
+    *.kotlin_builtins
+
+    # Other
+    crashlytics-build.properties
+    fastlane/report.xml
+    fastlane/test_output/
+    # Unit tests
+    /build/tmp/
+    /build/outputs/
+    /build/generated/
+    /build/reports/
+    /build/test-results/
+
+    # For Android Studio's new UI
+    .idea/json_scheme.xml
