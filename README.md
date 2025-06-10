@@ -54,7 +54,7 @@ A solução do desafio foi desenvolvida seguindo os princípios de **Clean Archi
     -   **Room Database:** ORM para persistência de dados local (caching) e suporte offline, permitindo que o aplicativo funcione mesmo sem conexão à internet após o primeiro carregamento dos dados.
     -   **Activity Result API:** Para lidar com resultados de atividades (como o fluxo de autenticação do Spotify) de forma moderna, eliminando o uso obsoleto de `onActivityResult`.
 -   **Koin:** Framework de **Injeção de Dependência (DI)**.
-    -   **Justificativa para o Koin:** Foi escolhido por sua simplicidade, facilidade de configuração e curva de aprendizado mais suave em comparação com ferramentas como Dagger Hilt. Isso permitiu uma rápida prototipagem e desenvolvimento do MVP dentro do prazo apertado, mantendo os benefícios da inversão de controle e testabilidade.
+    -   **Justificativa para o Koin:** Foi escolhido por sua simplicidade, facilidade de configuração e curva de aprendizado mais suave em comparação com ferramentas como Dagger Hilt. Isso permitiu uma rápida prototipagem e desenvolvimento do MVP dentro do prazo, mantendo os benefícios da inversão de controle e testabilidade.
 -   **Retrofit:** Cliente HTTP para comunicação com a **API REST do Spotify**, facilitando a declaração de endpoints e o mapeamento de respostas JSON.
 -   **OkHttp:** Cliente HTTP subjacente ao Retrofit, configurado com interceptores para logging (HttpLoggingInterceptor, útil para depuração de requisições de rede) e adição automática de tokens de autorização (AuthInterceptor).
 -   **Moshi:** Biblioteca de serialização/desserialização JSON, escolhida por sua interoperabilidade com Kotlin, segurança de tipo e boa integração com Retrofit e OkHttp.
